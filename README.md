@@ -11,7 +11,8 @@ This document describes the processing of the `L1_intensities.hdf5` file using P
         * `trajectories_data_valid`
     * The `INT_PROFILE` dataset, located within the `provenance_tracking` group, was also extracted to a CSV file. This dataset contains a single scalar value.
 3.  **Output Format:** All extracted data was saved as CSV files, with column headers derived from the dataset structure (where applicable).
-
+4.  **Visualization of the datasets:** The first 5 rows of each generated CSV file were printed to the console to provide a quick overview of the extracted data. 
+   
 **Libraries Used:**
 
 * `h5py`:  For reading and navigating the HDF5 file structure.
